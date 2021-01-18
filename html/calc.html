@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="../css/base.css">
+    
+</head>
+    <body>
+        <div id="container">
+            <div class="showDiv">
+                <input type="text" class="showMemorize" disabled="disabled" id="showMemorize">
+                <input type="text" class="showScreen" disabled="disabled" value="0" id="showScreen">
+            </div>
+            <div class="operatorDiv">
+                <table class="operatorTable">
+                <tr>
+                    <td class="tr_m">
+                        <button onclick="clickMC()">mc</button>
+                    </td>
+                    <td class="tr_m"> 
+                        <button onclick="clickMjia()">m+</button>
+                        </td>
+                        <td class="tr_m">
+                            <button onclick="clickMjian()">m-</button>
+                        </td> 
+                        <td class="tr_m">
+                        <button onclick="clickMR()">mr</button>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="font_color" onclick="clickAC()">AC</button>
+                    </td>
+                    <td>
+                        <button class="font_color" onclick="clickBack()">←</button>
+                        </td>
+                        <td>
+                            <button onclick="clickZhengfu()">+/-</button>
+                        </td> 
+                        <td>
+                        <button onclick="clickFuhao('/')">÷</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="chickShuzi('7')">7</button>
+                        </td>
+                        <td>
+                            <button onclick="chickShuzi('8')">8</button>
+                        </td>
+                        <td>
+                            <button onclick="chickShuzi('9')">9</button>
+                        </td> 
+                        <td>
+                            <button onclick="clickFuhao('*')">×</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="chickShuzi('4')">4</button>
+                        </td>
+                        <td>
+                            <button onclick="chickShuzi('5')">5</button>
+                        </td>
+                        <td>
+                            <button onclick="chickShuzi('6')">6</button>
+                        </td> 
+                        <td>
+                            <button onclick="clickFuhao('-')">－</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="chickShuzi('1')">1</button>
+                        </td>
+                        <td>
+                            <button onclick="chickShuzi('2')">2</button>
+                        </td>
+                        <td>
+                            <button onclick="chickShuzi('3')">3</button>
+                        </td> 
+                        <td>
+                            <button onclick="clickFuhao('+')">+</button>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td colspan="2">
+                            <button onclick="chickShuzi('0')">0</button>
+                        </td>
+                        <td>
+                            <button onclick="clickDian('.')">.</button>
+                        </td> 
+                        <td>
+                            <button class="bg_color" onclick="clickDeng()">＝</button>
+                        </td>
+                    </tr>       
+                </table>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="../javascript/calc.js" charset="gbk"></script>
+</html>
